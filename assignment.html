@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+                <div class="nav-list">
+            <ul>
+               <li class="list-item">HOME</li>
+               <li class="list-item">VIDEOS</li>
+               <li class="list-item">BLOG</li>
+               <li class="list-item">PORTFOLIO</li>
+               <li class="list-item">ABOUT US</li>
+               <li class="list-item">CONTACT US</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="homepage">
+        <div class="myheading">
+            <h1 style="font-size: 30px;"> WELCOME TO OUR <span>WEBSITE</span> </h1>
+            <P style="font-size: 20px;">Created and designed by professionals</P>
+            <div class="btn">
+                <button class="btn1">WATCH NOW</button>
+                <button class="btn2">SUBSCRIBE US</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <style>
+
+    body{
+        background-color: black;
+        color: white;
+        background-image: url(img3.jpg);
+        font-family: sans-serif;
+    }
+
+    nav{
+        display: flex;
+        height: 80px;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+
+    .logo:hover{ 
+        color: skyblue;
+
+    }
+
+    .nav-list ul{
+        display: flex;
+    }
+    .nav-list ul li{
+        list-style: none;
+        border: 1px solid white;
+        margin-right: 4px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .nav-list ul li:hover{
+        background-color: skyblue;
+        border: none;
+    }
+
+    .homepage{
+        text-align: center;
+        font-size: 36px;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .homepage span{
+        color: skyblue;
+    }
+    .homepage .btn1,.btn2{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .homepage .btn1{
+        background-color: skyblue;
+        border: none;
+    }
+    .homepage .btn2{
+        background-color: transparent;
+        color: white;
+        border: 1px solid;
+    }
+    .homepage .btn1:hover{
+        background-color: transparent;
+        border: 1px solid;
+        color: white;
+    }
+
+
+    .homepage .btn2:hover{
+        background-color: skyblue;
+        border: none;
+        color: black;
+
+    }
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

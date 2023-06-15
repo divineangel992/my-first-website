@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asssignment</title>
+</head>
+<body>
+    
+    <div class="navigation">
+       <div class="list-menu"> 
+            <ul></ul>
+            <li class="list-item btn">HOME</li>
+               <li class="list-item">VIDEOS</li>
+               <li class="list-item">BLOG</li>
+               <li class="list-item">PORTFOLIO</li>
+               <li class="list-item">ABOUT US</li>
+               <li class="list-item">CONTACT US</li>
+
+
+            </ul>
+                
+        </div>
+    <div>
+
+<section class="form">
+    <div class="form-content">
+        <h1>Register with us</h1>
+        <input class="input" placeholder="enter your username" type="username" name="username" id="username"> <br>
+        <input class="input" placeholder="enter your email" type="email" name="email" id="email"> <br>
+        <input class="input" placeholder="enter your password" type="password" name="password1" id="password1"> <br>
+        <input class="input" placeholder="confirm your password" type="password" name="password2" id=""> <br>
+        <input class="btn" placeholder="submit" type="submit" name="button" id="button">  <br>
+    </div>
+</section>
+    <style>
+
+.navigation .list-menu{
+    background-color: rgb(20, 20, 139);
+    display: flex;
+    
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation .list-menu li{
+    list-style: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.navigation .list-menu .btn{
+    background-color: rgb(20, 20, 139);
+    padding: 10px 40px;
+    border-radius: 15px;
+    border: 2px solid rgb(44, 44, 160);
+}
+
+.navigation .list-menu .btn:hover{
+    background-color: darkred;
+    transition: 1s;
+}
+.sub-menu{
+    display: none;
+}
+.sub-menu:hover{
+    display: flex;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+
+}
+.form-content{
+    background-color: brown;
+    width: 30%;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-content h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.form-content .input{
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn{
+    padding: 5px 25px;
+    border: none;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: brown;
+    color: white;
+    border: 1px solid rgb(136, 20, 20);
+}
+.form-content:hover{
+    background-color: chocolate;
+
+}
+
+.input:hover{
+    background-color: black;
+
+}
+
+/* Calender type */
+/* gender */
+
+    </style>
+
+<select name="gender" >
+<option value="">male</option>
+<option>female</option>
+</select>
+
+
+
+
+</body>
+</html>

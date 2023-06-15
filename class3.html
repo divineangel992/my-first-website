@@ -1,0 +1,171 @@
+<!-- designing a website cover -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE COVER</title>
+</head>
+<body>
+    <div class="home">
+        <div class="myheading">
+            <h1>My first website</h1>
+            <p>This website contains everything i know how to do.</p>
+        </div>
+    
+        <div class="whaticando">
+            <div class="cont1">
+                <h2>I am a  website designer</h2>
+                <p>I design for companies, schools and business stores</p>
+            </div>
+            <div class="cont2">
+                <h2>i am a proffessional web designer</h2>
+                <p>I design for companies, schools and business stores</p>
+            </div>
+            <div class="cont3">
+                <h2>I am a cartoon watcher</h2>
+                <p>I design for companies, schools and business stores</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="section2 card">
+        <div class="card1">
+            <img src="/img2.jpg" alt="" width="300" height="250">
+            <h1>My beautiful card</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit quibusdam repudiandae illum quod quasi reprehenderit voluptates odit exercitationem magni.</p>
+        </div>
+
+        
+        <div class="card2">
+            <img src="img 1.jpg" alt="" width="300" height="250">
+            <h1>My beautiful card</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit quibusdam repudiandae illum quod quasi reprehenderit voluptates odit exercitationem magni.</p>
+        </div>
+        <div class="card2">
+            <img src="img 1.jpg" alt="" width="300" height="250">
+            <h1>My beautiful card</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit quibusdam repudiandae illum quod quasi reprehenderit voluptates odit exercitationem magni.</p>
+        </div>
+        <div class="card3">
+            <img src="img4.jpg" alt="" width="300" height="250">
+            <h1>My beautiful card</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi fugit quibusdam repudiandae illum quod quasi reprehenderit voluptates odit exercitationem magni.</p>
+        </div>
+    </section>
+</body>
+
+<style>
+    body{
+        background-color: black;
+        color: white;
+        
+    }
+    .home{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myheading{
+        text-align: center;
+    }
+
+    .whaticando{
+        display: flex;
+        width: 50%;
+        
+    }
+    .whaticando div{
+        background-color: darkgreen;
+        margin: 2px;
+        padding: 10px;
+        /* border-radius: 10px; */
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 20px;
+        cursor: pointer;
+    }
+    .cont2{
+        background-color: brown !important;  
+    }
+    .cont3{
+        background-color: blue !important;
+    
+    }
+
+    .cont2:hover{
+        background-color: orangered !important;
+        transition: 1s;
+        font-size: 20px;
+        font-family: cursive;
+        box-shadow: 4px 4px 8px;
+    }
+    .cont3:hover{
+        background-color: blueviolet !important;
+        transition: 1s;
+        font-size: 20px;
+        font-family: cursive;
+        box-shadow: 4px 4px 8px;
+
+    }
+    .cont1:hover{
+        background-color: crimson !important;
+        transition: 1s;
+        font-size: 20px;
+        font-family: cursive;
+        box-shadow: 4px 4px 8px;
+    }
+
+    /* THIS IS SECTION TWO. CARD */
+    .card{
+        display: flex;
+        /* flex-direction: column; */
+        height: 50vh;
+        
+        justify-content: center;
+    }
+    .card div{
+        margin: 1rem;
+        background-color: aqua;
+        height: 70vh;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .card div:hover{
+        background-color: blue !important;
+        transition: 1s; 
+        font-family: cursive;
+        font-size: 10px;
+        box-shadow: 4px 4px 8px;
+    }
+
+    .card div img{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 0px;
+
+    }
+    .card div h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .card div p{
+        text-align: center;
+    }
+    .card2{
+        background-color: brown !important;
+    }
+
+
+    
+    
+</style>
+</html>
