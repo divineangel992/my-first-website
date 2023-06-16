@@ -7,7 +7,7 @@
 .home-cover{
     background-color: black;
     color: white;
-    background-image: url(/images/img\ detox.jpg);
+    background-image: url(images/img\ detox.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@ nav{
 }
 
 .sec-five{
-    background-image: url(/images/imgspa1.jpg);
+    background-image: url(images/imgspa1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
